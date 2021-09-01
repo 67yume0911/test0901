@@ -13,3 +13,15 @@ for ($i = 1; $i<= 100; $i++) {
     echo '<br>';
 }
 
+for ($x = 1; $x <=10000; $x++){
+    $point = 0;
+    for ($y = 1; $y <= $x; $y++){
+        if($x % $y ==0){
+            $point +=1;
+        }
+    }
+ if ($point == 2) {
+     echo $x . "\n";
+ }
+ echo '<br>';
+}
